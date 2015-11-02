@@ -2,7 +2,7 @@
 
 [![build status](https://travis-ci.org/boyney123/express-throttle-requests.svg)](https://travis-ci.org/boyney123/express-throttle-requests) [![npm version](https://badge.fury.io/js/express-throttle-requests.svg)](https://www.npmjs.com/package/express-throttle-requests)
 
-Simulate slow responses for the user.
+Simulate slow http responses using Node & Express.
 
 Easy to setup and use in your express app. Express middleware that resolves the http request after a random number of seconds. (Default between 50ms and 3000ms)
 
