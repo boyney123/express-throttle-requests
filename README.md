@@ -30,6 +30,7 @@ throttle(router);
 By default the requests will be throttled between 50ms and 3000ms. These values can be overriden.
 
 min - Minimum time to wait for request
+
 max - Maximum time to wait for request
 
 ```js
