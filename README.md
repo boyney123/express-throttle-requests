@@ -1,6 +1,8 @@
 # express-throttle-requests
 Express middleware that will throttle http  requests. Simulating slow responses for the user.
 
+The requests will resolve after a random time. (Default between 50ms and 3000ms)
+
 ## Usage
 
 ### Usage with express app
@@ -21,6 +23,25 @@ var router = express.Router();
 var throttle = require('express-throttle-requests');
 
 throttle(router);
+
+```
+
+## Options
+
+By default the requests will be throttled between 50ms and 3000ms. These values can be overriden.
+
+min - Minimum time to wait for request
+max - Maximum time to wait for request
+
+```js
+
+var app = express();
+var throttle = require('express-throttle-requests');
+
+throttle(app, {
+  min:1000, //Example showing a minimum of 1000ms (1 second)
+  max:5000 //Example showing a maximum of 5000 (5 seconds)
+});
 
 ```
 
