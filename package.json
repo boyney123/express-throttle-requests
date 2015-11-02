@@ -4,7 +4,7 @@
   "description": "Express middleware that will throttle http requests. Simulating slow requests for the user.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js"
   },
   "keywords": [
     "express",
