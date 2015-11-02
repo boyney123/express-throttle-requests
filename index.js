@@ -2,7 +2,5 @@
 
 var throttle = require('./lib/throttle.js');
 
-module.exports = {
-  throttle: throttle
-};
+module.exports = throttle;
 

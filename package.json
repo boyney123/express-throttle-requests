@@ -1,7 +1,7 @@
 {
   "name": "express-throttle-requests",
   "version": "0.0.1",
-  "description": "Express middleware that will throttle http  requests. Simulating slow requests for the user.",
+  "description": "Express middleware that will throttle http requests. Simulating slow requests for the user.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
