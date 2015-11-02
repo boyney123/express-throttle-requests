@@ -4,7 +4,7 @@
   "description": "Express middleware that will throttle http requests. Simulating slow requests for the user.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "./node_modules/tape/bin/tape test.js"
   },
   "keywords": [
     "express",
