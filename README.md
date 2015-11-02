@@ -29,7 +29,7 @@ throttle(router);
 
 ```
 
-### Using just in development example
+### Development environment only example
 ```js
 
 var router = express.Router();
