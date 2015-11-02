@@ -1,6 +1,7 @@
 # express-throttle-requests
 
-[![build status](https://travis-ci.org/boyney123/express-throttle-requests.svg)](https://travis-ci.org/boyney123/express-throttle-requests)
+[![build status](https://travis-ci.org/boyney123/express-throttle-requests.svg)](https://travis-ci.org/boyney123/express-throttle-requests) [![npm version](https://badge.fury.io/js/express-throttle-requests.svg)](hhttps://badge.fury.io/js/express-throttle-requests)
+
 
 Express middleware that will throttle http  requests. Simulating slow responses for the user.
 
