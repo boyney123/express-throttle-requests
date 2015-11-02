@@ -19,7 +19,6 @@ throttle(app);
 ```js
 
 var router = express.Router();
-
 var throttle = require('express-throttle-requests');
 
 throttle(router);
