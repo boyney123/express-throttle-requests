@@ -3,7 +3,9 @@ Express middleware that will throttle http  requests. Simulating slow responses 
 
 The requests will resolve after a random time. (Default between 50ms and 3000ms)
 
-***DO NOT USE THIS IN PRODUCTION. THIS TOOL WAS DEISNGED TO SIMULATE SLOW REQUESTS FROM THE SERVER***
+***DO NOT USE THIS IN PRODUCTION.***
+
+***THIS TOOL WAS DEISNGED TO SIMULATE SLOW REQUESTS FROM THE SERVER***
 
 ## Usage
 
@@ -24,6 +26,17 @@ var router = express.Router();
 var throttle = require('express-throttle-requests');
 
 throttle(router);
+
+```
+
+### Using just in development example
+```js
+
+var router = express.Router();
+if(config.env === 'development'){
+  var throttle = require('express-throttle-requests');
+  throttle(router);
+}
 
 ```
 
@@ -52,7 +65,7 @@ throttle(app, {
 With [npm](http://npmjs.org) do
 
 ```bash
-$ npm install express-throttle-requests --save
+$ npm install express-throttle-requests --save-dev
 ```
 
 ## License
