@@ -14,5 +14,8 @@
     "http"
   ],
   "author": "David Boyne <david.boyne@comparethemarket.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
 }
