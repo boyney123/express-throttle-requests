@@ -3,6 +3,8 @@ Express middleware that will throttle http  requests. Simulating slow responses 
 
 The requests will resolve after a random time. (Default between 50ms and 3000ms)
 
+***DO NOT USE THIS IN PRODUCTION. THIS TOOL WAS DEISNGED TO SIMULATE SLOW REQUESTS FROM THE SERVER***
+
 ## Usage
 
 ### Usage with express app
